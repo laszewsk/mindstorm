@@ -17,10 +17,6 @@ NXT serach from lego site:
 
 * http://search-en.lego.com/?cc=US&lang=2057&q=nxt
 
-EV3 & NXT serach
-
-* http://shop.lego.com/en-US/catalog/productListing.jsp?_requestid=585095
-
 FLL
 ===
 
