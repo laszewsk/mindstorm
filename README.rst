@@ -17,11 +17,11 @@ Link for store set:
 
 * http://shop.lego.com/en-US/LEGO-MINDSTORMS-EV3-31313?p=31313
 
-EV3 serach from lego site:
+EV3 search from lego site:
 
 * http://search-en.lego.com/?q=ev3
 
-NXT serach from lego site:
+NXT search from lego site:
 
 * http://search-en.lego.com/?cc=US&lang=2057&q=nxt
 
