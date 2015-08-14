@@ -9,6 +9,14 @@ Different between Education and store set:
 
 * http://robotsquare.com/2013/11/25/difference-between-ev3-home-edition-and-education-ev3/
 
+Link for education set:
+
+* https://shop.education.lego.com/legoed/en-US/catalog/product.jsp?productId=5003400
+
+Link for store set:
+
+* http://shop.lego.com/en-US/LEGO-MINDSTORMS-EV3-31313?p=31313
+
 EV3 serach from lego site:
 
 * http://search-en.lego.com/?q=ev3
