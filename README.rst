@@ -20,13 +20,11 @@ Education set:
 Does not have 
 
 * `Infrared Sensor <http://shop.lego.com/en-US/EV3-Infrared-Sensor-45509>`__ ($30)
-
 * `Infrared Remote <http://shop.lego.com/en-US/EV3-Infrared-Beacon-45508>`__ ($30)
-
-Software - `Video demonstration <https://www.youtube.com/watch?v=9HiNF1ry6x0>`__
+* Software 
 
 Software may be additional $99?
-Can stroe set prg Gyro sensor?
+Can store set program the Gyro sensor?
 
 Link for education set:
 
