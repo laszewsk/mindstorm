@@ -9,6 +9,32 @@ Different between Education and store set:
 
 * http://robotsquare.com/2013/11/25/difference-between-ev3-home-edition-and-education-ev3/
 
+Education set:
+
+* `Rechargeable battery
+pack <https://shop.education.lego.com/legoed/en-US/catalog/product.jsp?productId=5003400>`__
+and
+`charger <http://shop.lego.com/en-US/LEGO-Power-Functions-Transformer-Charger-10VDC-8887>`__
+(normally $60 and $25)
+
+* `Gyroscope <http://shop.lego.com/en-US/EV3-Gyro-Sensor-45505>`__ ($30)
+
+* `Ultrasonic distance
+sensor <http://shop.lego.com/en-US/EV3-Ultrasonic-Sensor-45504>`__ ($30)
+
+Does not have 
+
+* `Infrared
+Sensor <http://shop.lego.com/en-US/EV3-Infrared-Sensor-45509>`__ ($30)
+
+* `Infrared
+Remote <http://shop.lego.com/en-US/EV3-Infrared-Beacon-45508>`__ ($30)
+
+Software - `Video
+demonstration <https://www.youtube.com/watch?v=9HiNF1ry6x0>`__
+
+Software may be additional $99?
+
 Link for education set:
 
 * https://shop.education.lego.com/legoed/en-US/catalog/product.jsp?productId=5003400
