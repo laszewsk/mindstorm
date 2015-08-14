@@ -15,7 +15,7 @@ NXT serach from lego site:
 
 * http://search-en.lego.com/?cc=US&lang=2057&q=nxt
 
-Instruction
+Instructions
 ============
 
 -  `BI 3006/48 - 31313 - Download size: 11.55
