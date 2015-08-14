@@ -26,6 +26,7 @@ Does not have
 Software - `Video demonstration <https://www.youtube.com/watch?v=9HiNF1ry6x0>`__
 
 Software may be additional $99?
+Can stroe set prg Gyro sensor?
 
 Link for education set:
 
