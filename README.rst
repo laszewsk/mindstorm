@@ -1,3 +1,5 @@
+mail suggestions for improvements to laszewski@gmail.com
+
 mindstorm
 ==========
 
