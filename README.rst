@@ -9,7 +9,7 @@ Different between Education and store set:
 
 EV3 serach from lego site:
 
-* http://search-en.lego.com/?q=ev3&cc=US#
+* http://search-en.lego.com/?q=ev3
 
 NXT serach from lego site:
 
