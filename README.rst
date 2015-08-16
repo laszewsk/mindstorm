@@ -1,5 +1,10 @@
 mail suggestions for improvements to laszewski@gmail.com
 
+FLL Coach Resources
+===================
+
+* http://www.firstlegoleague.org/challenge/teamresources
+
 Builderdude35 channel   
 =====================
 
@@ -8,7 +13,6 @@ Channel: https://www.youtube.com/channel/UCuXq-jiU0ANeBcF_Tvq1D7g
 * Sirius: https://www.youtube.com/watch?v=pDxAszX-YUo
 * Doggear: https://www.youtube.com/watch?v=NZbt3tnySyI
 * Wormgear: https://www.youtube.com/watch?v=TQ9hQ_ZXwmM
-
 
 mindstorm
 ==========
