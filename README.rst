@@ -1,6 +1,8 @@
 mail suggestions for improvements to laszewski@gmail.com
 
 Software
+========
+
 * http://www.lego.com/en-us/mindstorms/downloads/download-software
 
 FLL Coach Resources
