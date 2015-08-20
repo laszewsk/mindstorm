@@ -48,6 +48,7 @@ Can store set program the Gyro sensor?
 Link for education set:
 
 * https://shop.education.lego.com/legoed/en-US/catalog/product.jsp?productId=5003400
+* https://shop.education.lego.com/legoed/en-US/search/navSearchResults.jsp?parentCategories=EDU_PRD_LINE_107&gradeLevels=University&viewAll=true&isFacetSearch=true
 
 Link for store set:
 
