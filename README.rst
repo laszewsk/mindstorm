@@ -26,6 +26,7 @@ Some information about mindstrom
 
 Different between Education and store set:
 
+* http://www.generationrobots.com/blog/en/2015/02/differences-lego-mindstorms-education-ev3-kit-ev3-home-edition/
 * http://robotsquare.com/2013/11/25/difference-between-ev3-home-edition-and-education-ev3/
 
 Education set:
