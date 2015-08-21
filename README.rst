@@ -131,4 +131,10 @@ Instructions
 -  `WACK3M - Download size: 18.17
    Mb <http://cache.lego.com/r/service/-/media/franchises/mindstorms%202014/downloads/bi/wack3m.pdf?l.r2=-1537718406>`__
 
-http://cache.lego.com/r/www/r/mindstorms/-/media/franchises/mindstorms%202014/buildarobot/buildarobot_r3ptar_square.png?l.r2=-1533576726
+.. image:: http://cache.lego.com/r/www/r/mindstorms/-/media/franchises/mindstorms%202014/buildarobot/buildarobot_r3ptar_square.png?l.r2=-1533576726
+   :height: 100px
+   :width: 100 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+   
