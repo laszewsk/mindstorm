@@ -10,6 +10,13 @@ FLL Coach Resources
 
 * http://www.firstlegoleague.org/challenge/teamresources
 
+
+* Introduction Video:   https://www.youtube.com/watch?v=lFQMPVZvzQY
+* Project Video: https://www.youtube.com/watch?v=HhSXJ7bvSYQ&feature=youtu.be
+* Robot Challenge: https://www.youtube.com/watch?v=akuN95EyXJk&feature=youtu.be
+* Forklift Attachment (1): https://www.youtube.com/watch?v=7hVOOGAGsKY
+* Forklift Attachment (2): https://www.youtube.com/watch?v=5XwFTzPuSJs
+
 Builderdude35 channel   
 =====================
 
