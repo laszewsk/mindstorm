@@ -8,7 +8,14 @@ Welcome to Mindstorm Page
 
 :download:`epub <files/Mindstorm.epub>`
 
-:download:`Sirius <files/FLL-Robot-2015-Builderdude35.lxf>`
+:download:`Sirius LXF <files/FLL-Robot-2015-Builderdude35.lxf>`
+
+
+Sirius HTML
+
+`Python <http://www.python.org/>`_.
+
+`HTML Instructions <files/Building Instructions [FLL Robot 2015 - Builderdude35].html>`_
 
 Contents:
 
