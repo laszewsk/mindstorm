@@ -1,6 +1,10 @@
 Welcome to Mindstorm Page
 =========================
 
+* http://laszewsk.github.io/mindstorm
+* https://github.com/laszewsk/mindstorm
+
+
 Contents:
 
 .. toctree::
