@@ -1,9 +1,14 @@
 Welcome to Mindstorm Page
 =========================
 
-* http://laszewsk.github.io/mindstorm
+* HTML: http://laszewsk.github.io/mindstorm
 * https://github.com/laszewsk/mindstorm
 
+:download:`PDF <files/Mindstorm.pdf>`
+
+:download:`epub <files/Mindstorm.epub>`
+
+:download:`Sirius <files/FLL-Robot-2015-Builderdude35.lxf>`
 
 Contents:
 
