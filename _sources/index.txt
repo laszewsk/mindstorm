@@ -15,7 +15,7 @@ Sirius HTML
 
 `Python <http://www.python.org/>`_.
 
-`HTML Instructions <files/Building Instructions [FLL Robot 2015 - Builderdude35].html>`_
+`HTML Instructions <files/Building\ Instructions\ [FLL\ Robot\ 2015\ -\ Builderdude35].html>`_
 
 Contents:
 
