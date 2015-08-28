@@ -1,0 +1,10 @@
+Welcome to Mindstorm Page
+=========================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+
+.. include:: README.rst
