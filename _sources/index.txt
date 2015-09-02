@@ -35,8 +35,31 @@ Videos:
 * `Robot Challenge <https://www.youtube.com/watch?v=akuN95EyXJk&feature=youtu.be>`_
 
 Building Instructions:
+^^^^^^^^^^^^^^^^^^^^^^^
 
-Included is a set of buliding instructions for the FLL Trash chalange:
+The set of the chalange building instructions can be found on the FLL
+web page:
+
+`Source <http://www.firstlegoleague.org/challenge/missionmodelbuildinginstructions#sthash.yDLjPwRs.dpuf>`__
+
+It includes the following:
+
+* `Element Overview <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801_Element_Overview_NonVerbal.pdf>`__
+* `Model Overview <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Model-Overview-NonVerbal.pdf>`__
+* `All files in zip format <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/trash-trek-mission-model-build.zip>`__
+
+  * `Bag 1 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag01-NonVerbal.pdf>`__
+  * `Bag 2 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag02-NonVerbal.pdf>`__
+  * `Bag 3 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag03-NonVerbal.pdf>`__
+  * `Bag 4 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag04-NonVerbal.pdf>`__
+  * `Bag 5 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag05-NonVerbal.pdf>`__
+  * `Bag 6 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag06_NonVerbal.pdf>`__
+  * `Bag 7 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801_Bag07_NonVerbal.pdf>`__
+  * `Bag 8 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag08-NonVerbal.pdf>`__
+  * `Bag 9 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag09-NonVerbal.pdf>`__
+  * `Bag 10 <http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FLL/Challenges/trash-trek/45801-Bag10-NonVerbal.pdf>`__
+
+
 
 
 Trash Challange links
@@ -62,13 +85,13 @@ The person that designed this robot has a Youtube Channel:
 
 Attachments are also Available 
 
-* `Doggear: (Video) <https://www.youtube.com/watch?v=NZbt3tnySyI>`
-* `Wormgear (Video) <https://www.youtube.com/watch?v=TQ9hQ_ZXwmM>`
+* `Doggear (Video) <https://www.youtube.com/watch?v=NZbt3tnySyI>`_
+* `Wormgear (Video) <https://www.youtube.com/watch?v=TQ9hQ_ZXwmM>`_
 
 Possible useful ideas to build attachments include:
 
-* `Forklift Attachment 1 (Video) <https://www.youtube.com/watch?v=7hVOOGAGsKY>`
-* `Forklift Attachment 2 (Video) <https://www.youtube.com/watch?v=5XwFTzPuSJs>`
+* `Forklift Attachment 1 (Video) <https://www.youtube.com/watch?v=7hVOOGAGsKY>`_
+* `Forklift Attachment 2 (Video) <https://www.youtube.com/watch?v=5XwFTzPuSJs>`_
 
 
 Software
@@ -130,8 +153,8 @@ Mindstorm Sets
 
 There are two lego robot mindstorm sets available they are 
 
-* `Home Eddition: <http://shop.lego.com/en-US/LEGO-MINDSTORMS-EV3-31313?p=31313>`_
-* `Educational Edition: <https://shop.education.lego.com/legoed/en-US/catalog/product.jsp?productId=5003400>`_
+* `Home Eddition <http://shop.lego.com/en-US/LEGO-MINDSTORMS-EV3-31313?p=31313>`_
+* `Educational Edition <https://shop.education.lego.com/legoed/en-US/catalog/product.jsp?productId=5003400>`_
 
 
 The differences between the sets are explained 
