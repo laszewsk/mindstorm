@@ -38,6 +38,12 @@ Building Instructions:
 
 Included is a set of buliding instructions for the FLL Trash chalange:
 
+
+Trash Challange links
+--------------------
+
+* `IU Sustainebility programs <http://sustain.indiana.edu/programs/index.php>`_
+* `EPA summary on waste generation in the U.S. <http://www.epa.gov/wastes/nonhaz/municipal/pubs/2013_advncng_smm_fs.pdf>`_
   
 Robot
 -----
