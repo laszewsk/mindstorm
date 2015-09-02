@@ -65,8 +65,9 @@ It includes the following:
 Trash Challange links
 --------------------
 
-* `IU Sustainebility programs <http://sustain.indiana.edu/programs/index.php>`_
 * `EPA summary on waste generation in the U.S. <http://www.epa.gov/wastes/nonhaz/municipal/pubs/2013_advncng_smm_fs.pdf>`_
+* `IU Sustainebility programs <http://sustain.indiana.edu/programs/index.php>`_
+* `IU Football trash <http://inside.indiana.edu/headlines/2015-09-02-zero-waste-football-games.shtml?utm_source=2015-09-02&utm_medium=enewsletter&utm_content=Going-green-&utm_campaign=2015-inside-iub-distribution>`_
   
 Robot
 -----
