@@ -100,15 +100,14 @@ Robot:
   
 Program to illustrate the behavious:
 
-  black = 10
-  white = 70
-  f = 1.0
+    black = 10
+    white = 70
+    f = 1.0
 
-  for light in range(black,white):
-    speed1[light] = (white-light) * f  # THIS IS IMPORTANT
-    speed2[light] = (light-black) * f  # THIS IS IMPORTANT
-            
-  
+    for light in range(black,white):
+      speed1[light] = (white-light) * f  # THIS IS IMPORTANT
+      speed2[light] = (light-black) * f  # THIS IS IMPORTANT
+
            light     speed1     speed2
     10      10.00      60.00       0.00 
     11      11.00      59.00       1.00 
