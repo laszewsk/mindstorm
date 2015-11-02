@@ -158,7 +158,7 @@ for i in range(black,white):
     69      69.00       1.00      59.00 
     
     
-
+![Image of Yaktocat](docs/source/images/curve.png )
   
         
         
