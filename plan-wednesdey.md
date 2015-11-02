@@ -15,7 +15,7 @@ Part I: Variables and Files
 * [ ] how to use files
 * [ ] how to use files and variables
   
-PartII: Going Straight
+Part II: Going Straight
 ----------------------
 
 * [ ] Math: How to get the distance from a wheel wher we know circumferance and diameter
