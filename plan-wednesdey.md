@@ -18,3 +18,23 @@ Part I: Variables and Files
 PartII: Going Straight
 ----------------------
 
+* [ ] Math: How to get the distance from a wheel wher we know circumferance and diameter
+
+  * [ ] How to measure the diameter of a wheel 
+  * [ ] How to measure the circumference of a wheel with a string
+  * [ ] How to read the diameter od a whele from the lego tires
+  * [ ] C/d = pi
+  
+        Experiment 1: We will measure the circumferenace and diameter and calculate C/d
+
+        Experiment 2: We will compare the different ratios for the different wheel sizes
+        
+        Experiment 3: We will recalculate the distance by C/pi = d
+        
+        Review: We will be watching https://en.wikipedia.org/wiki/Circumference
+        
+        
+        
+        
+        
+  
