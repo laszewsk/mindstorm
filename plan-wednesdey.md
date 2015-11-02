@@ -78,23 +78,17 @@ Line Following Program
   
 No need to understand this, but the two lines
 
-black = 10
-white = 70
-f_rotate = 1.0
-s1=[]
-s2=[]
+  black = 10
+  white = 70
+  f_rotate = 1.0
 
-print "            light     speed1     speed2"
-for i in range(black,white):
+  for i in range(black,white):
     light = float(i)
     
-    speed1 = (white-light) * f_rotate  # THIS IS IMPORTANT
-    speed2 = (light-black) * f_rotate  # THIS IS IMPORTANT
+    speed1[light] = (white-light) * f_rotate  # THIS IS IMPORTANT
+    speed2[light] = (light-black) * f_rotate  # THIS IS IMPORTANT
             
-    print "{:6d} {:10.2f} {:10.2f} {:10.2f} ".format(i, light, speed1, speed2)
-    s1.append(speed1)
-    s2.append(speed2)
-    
+  
            light     speed1     speed2
     10      10.00      60.00       0.00 
     11      11.00      59.00       1.00 
