@@ -24,17 +24,16 @@ PartII: Going Straight
   * [ ] How to measure the circumference of a wheel with a string
   * [ ] How to read the diameter od a whele from the lego tires
   
-
 * [ ] Math: C/d = pi
   
-        * [] Experiment 1: We will measure the circumferenace and diameter and calculate C/d
+  * [] Experiment 1: We will measure the circumferenace and diameter and calculate C/d
 
-        * [] Experiment 2: We will compare the different ratios for the different wheel sizes
-        
-        * [] Experiment 3: We will recalculate the distance by C/pi = d
-        
-        * [ ] Review: We will be watching https://en.wikipedia.org/wiki/Circumference
-        
+  * [] Experiment 2: We will compare the different ratios for the different wheel sizes
+
+  * [] Experiment 3: We will recalculate the distance by C/pi = d
+  
+  * [ ] Review: We will be watching https://en.wikipedia.org/wiki/Circumference
+  
 * [ ] Basic program
  
   * Write a basic program useing the above while using the variables __distance__, __pi__, __circumferance__  
