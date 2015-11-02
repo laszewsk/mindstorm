@@ -53,10 +53,10 @@ PartII: Going Straight
   
 * [ ] Creating a Library for moving
 
-  * [ ] mForward(distance, speed, circumferenace)__
-  * [ ] mTurnLeft, mTurnRight(distance, speed, circumferenace)__
-  * [ ] mTurnLeft45, mTurnRight45(distance, speed, circumferenace)__
-  * [ ] mTurnLeft30, mTUrnRigt(distance, speed, circumferenace)__
+  * [ ] __mForward(distance, speed, circumferenace)__
+  * [ ] __mTurnLeft, mTurnRight(distance, speed, circumferenace)__
+  * [ ] __mTurnLeft45, mTurnRight45(distance, speed, circumferenace)__
+  * [ ] __mTurnLeft30, mTUrnRigt(distance, speed, circumferenace)__
 
 
   
