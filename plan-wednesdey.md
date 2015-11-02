@@ -76,17 +76,17 @@ Line Following Program
   * [ ] Table 
   * 
   
-No need to understand this, but the two lines
+No need to understand this, but the two lines marked with this IS IMPORTANT:
 
   black = 10
   white = 70
-  f_rotate = 1.0
+  f = 1.0
 
   for i in range(black,white):
     light = float(i)
     
-    speed1[light] = (white-light) * f_rotate  # THIS IS IMPORTANT
-    speed2[light] = (light-black) * f_rotate  # THIS IS IMPORTANT
+    speed1[light] = (white-light) * f  # THIS IS IMPORTANT
+    speed2[light] = (light-black) * f  # THIS IS IMPORTANT
             
   
            light     speed1     speed2
