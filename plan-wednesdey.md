@@ -193,8 +193,5 @@ Anticipated judges questions that everyone should be able to anser:
 * [ ] Why are you using cm instead of inches? :
 
   * The metric unit system is easy because everything is a multiple or a fraction of ten. There is a base unit for each type of measurement, such as meter (abbreviation m) for length, gramm (abbreviation g or gr) for weight or liter (abbreviation l or lt) for volume.
+  * Only three countries do not use the metric system: https://upload.wikimedia.org/wikipedia/commons/1/17/Metric_system.png, USA, Liberia, Myanmar
 
- 
-
-
-* 
