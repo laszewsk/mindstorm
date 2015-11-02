@@ -186,3 +186,15 @@ Gaining understnding:
 * [ ] How can you use the smooth algorithm to move forard fro 100cm on a balck line.
         
   
+Anticipated judges questions that everyone should be able to anser:
+
+* [ ] How does the lne folowing program work?
+* [ ] What is pi and how doe it relate to wheel measurments
+* [ ] Why are you using cm instead of inches? :
+
+  * The metric unit system is easy because everything is a multiple or a fraction of ten. There is a base unit for each type of measurement, such as meter (abbreviation m) for length, gramm (abbreviation g or gr) for weight or liter (abbreviation l or lt) for volume.
+
+ 
+
+
+* 
