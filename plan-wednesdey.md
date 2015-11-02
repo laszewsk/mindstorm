@@ -26,11 +26,11 @@ PartII: Going Straight
   
 * [ ] Math: C/d = pi
   
-  * [] Experiment 1: We will measure the circumferenace and diameter and calculate C/d
+  * [ ] Experiment 1: We will measure the circumferenace and diameter and calculate C/d
 
-  * [] Experiment 2: We will compare the different ratios for the different wheel sizes
+  * [ ] Experiment 2: We will compare the different ratios for the different wheel sizes
 
-  * [] Experiment 3: We will recalculate the distance by C/pi = d
+  * [ ] Experiment 3: We will recalculate the distance by C/pi = d
   
   * [ ] Review: We will be watching https://en.wikipedia.org/wiki/Circumference
   
