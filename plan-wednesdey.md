@@ -70,11 +70,33 @@ Write a programsthat turns your robot on the spot.
   * [ ] Test yor program while turning a full rotation with your dergee algorithm. Example: 45 degrees turn 8 times
 
 Line Following Program
+------------------------
 
-  * [ ] Edication of line following. Simple algorithm
+Robot 
+
+ light
++---+
+|   |
++---+
+      +---------------+
+      |               |
++---+ |               | +---+
+|   | |               | |   |
+|   | |               | |   |
+|   | |               | |   |
+|   | |               | |   |
+|   | |               | |   |
+|   | |               | |   |
+|   | |               | |   |
++---+ |               | |   |
+      |               | +---+
+      +---------------+
+speed1                speed2
+
+
+  * [ ] Education of line following. Simple algorithm
   * [ ] Impact of speed 
   * [ ] Table 
-  * 
   
 No need to understand this, but the two lines marked with this IS IMPORTANT:
 
@@ -157,7 +179,11 @@ No need to understand this, but the two lines marked with this IS IMPORTANT:
 ![Curve](https://raw.githubusercontent.com/laszewsk/mindstorm/master/docs/source/images/curve.png)
   
         
-        
-        
+Gaining understnding:
+
+* [ ] Draw on a piece of paper your robot (see drawing above), fold or cut it so the robot is left  
+* [ ] Draw on a piece of paper a big black line as wide as the light sensor
+* [ ] Use the robot to hit the black line at different angles and explain how the wheels shold turn to get straight
+
         
   
