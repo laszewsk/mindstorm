@@ -15,7 +15,7 @@ Part I: Variables and Files
 * [ ] how to use files
 * [ ] how to use files and variables
   
-Part II: Going Straight
+Part II: Going Straight 
 ------------------------
 
 * [ ] Math: How to get the distance from a wheel wher we know circumferance and diameter
@@ -54,12 +54,111 @@ Part II: Going Straight
 * [ ] Creating a Library for moving
 
   * [ ] __mForward(distance, speed, circumferenace)__
-  * [ ] __mTurnLeft, mTurnRight(distance, speed, circumferenace)__
-  * [ ] __mTurnLeft45, mTurnRight45(distance, speed, circumferenace)__
-  * [ ] __mTurnLeft30, mTUrnRigt(distance, speed, circumferenace)__
-
-
+  * 
   
+Turning
+--------
+
+Write a programsthat turns your robot on the spot.
+
+  * [ ] __mTurnLeft, mTurnRight(speed)__
+  * [ ] __mTurnLeft45, mTurnRight45(speed)__
+  * [ ] __mTurnLeft30, mTUrnRigt30(speed)__
+
+  * [ ] __mTurnDegree(degree, speed)__
+
+  * [ ] Test yor program while turning a full rotation with your dergee algorithm. Example: 45 degrees turn 8 times
+
+Line Following Program
+
+  * [ ] Edication of line following. Simple algorithm
+  * [ ] Impact of speed 
+  * [ ] Table 
+  * 
+  
+No need to understand this, but the two lines
+
+black = 10
+white = 70
+f_rotate = 1.0
+s1=[]
+s2=[]
+
+print "            light     speed1     speed2"
+for i in range(black,white):
+    light = float(i)
+    
+    speed1 = (white-light) * f_rotate  # THIS IS IMPORTANT
+    speed2 = (light-black) * f_rotate  # THIS IS IMPORTANT
+            
+    print "{:6d} {:10.2f} {:10.2f} {:10.2f} ".format(i, light, speed1, speed2)
+    s1.append(speed1)
+    s2.append(speed2)
+    
+           light     speed1     speed2
+    10      10.00      60.00       0.00 
+    11      11.00      59.00       1.00 
+    12      12.00      58.00       2.00 
+    13      13.00      57.00       3.00 
+    14      14.00      56.00       4.00 
+    15      15.00      55.00       5.00 
+    16      16.00      54.00       6.00 
+    17      17.00      53.00       7.00 
+    18      18.00      52.00       8.00 
+    19      19.00      51.00       9.00 
+    20      20.00      50.00      10.00 
+    21      21.00      49.00      11.00 
+    22      22.00      48.00      12.00 
+    23      23.00      47.00      13.00 
+    24      24.00      46.00      14.00 
+    25      25.00      45.00      15.00 
+    26      26.00      44.00      16.00 
+    27      27.00      43.00      17.00 
+    28      28.00      42.00      18.00 
+    29      29.00      41.00      19.00 
+    30      30.00      40.00      20.00 
+    31      31.00      39.00      21.00 
+    32      32.00      38.00      22.00 
+    33      33.00      37.00      23.00 
+    34      34.00      36.00      24.00 
+    35      35.00      35.00      25.00 
+    36      36.00      34.00      26.00 
+    37      37.00      33.00      27.00 
+    38      38.00      32.00      28.00 
+    39      39.00      31.00      29.00 
+    40      40.00      30.00      30.00 
+    41      41.00      29.00      31.00 
+    42      42.00      28.00      32.00 
+    43      43.00      27.00      33.00 
+    44      44.00      26.00      34.00 
+    45      45.00      25.00      35.00 
+    46      46.00      24.00      36.00 
+    47      47.00      23.00      37.00 
+    48      48.00      22.00      38.00 
+    49      49.00      21.00      39.00 
+    50      50.00      20.00      40.00 
+    51      51.00      19.00      41.00 
+    52      52.00      18.00      42.00 
+    53      53.00      17.00      43.00 
+    54      54.00      16.00      44.00 
+    55      55.00      15.00      45.00 
+    56      56.00      14.00      46.00 
+    57      57.00      13.00      47.00 
+    58      58.00      12.00      48.00 
+    59      59.00      11.00      49.00 
+    60      60.00      10.00      50.00 
+    61      61.00       9.00      51.00 
+    62      62.00       8.00      52.00 
+    63      63.00       7.00      53.00 
+    64      64.00       6.00      54.00 
+    65      65.00       5.00      55.00 
+    66      66.00       4.00      56.00 
+    67      67.00       3.00      57.00 
+    68      68.00       2.00      58.00 
+    69      69.00       1.00      59.00 
+    
+    
+
   
         
         
