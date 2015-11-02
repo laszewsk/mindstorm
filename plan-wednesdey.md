@@ -18,7 +18,7 @@ Part I: Variables and Files
 Part II: Going Straight 
 ------------------------
 
-* [ ] Math: How to get the distance from a wheel wher we know circumferance and diameter
+* [ ] Math: How to get the distance from a wheel where we know circumferance and diameter
 
   * [ ] How to measure the diameter of a wheel 
   * [ ] How to measure the circumference of a wheel with a string
