@@ -181,6 +181,8 @@ Gaining understnding:
 * [ ] Draw on a piece of paper your robot (see drawing above), fold or cut it so the robot is left  
 * [ ] Draw on a piece of paper a big black line as wide as the light sensor
 * [ ] Use the robot to hit the black line at different angles and explain how the wheels shold turn to get straight
-
+* [ ] What value must f have so that the maximum speed is 20 (robot moves real slow in this case)
+* [ ] Observe what happens when you change f
+* [ ] How can you use the smooth algorithm to move forard fro 100cm on a balck line.
         
   
