@@ -22,11 +22,10 @@ all:
 	cd docs; make epub
 	cd docs; make latex
 	cd docs; make latexpdf
+	fab doc.html
 	mkdir -p docs/build/html/files
 	cp docs/build/latex/Mindstorm.pdf docs/source/files/Mindstorm.pdf
 	cp docs/build/epub/Mindstorm.epub docs/source/files/Mindstorm.epub
-	fab doc.html
-	
 
 publish:
 	ghp-import -n -p docs/build/html
