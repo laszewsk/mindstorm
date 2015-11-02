@@ -45,7 +45,7 @@ PartII: Going Straight
         * Reasoning: if you make a definition error in myBlocks they can not be reversed, and you have to start over. For big programs this is a problem. Afoid that you spend hours of recreating the big program.
 
   * [ ] Write a basic program using the above while using the variables __distance__, __speed__, __circumferance__
-  * [ ] Write a __myBlock__ that has the following inputs inputs __distance__, __speed__, __circumferance__
+  * [ ] Write a __myBlock__ that has the following inputs inputs __distance__, __speed__, __circumferance__. Set proper default sfor the vakues. distance = 10cm, speed=40, circumference = the one you found for your wheel in the math section
   
     * We write such a program abbreviated as __mForward(distance, speed, circumferenace)__
  
@@ -53,10 +53,10 @@ PartII: Going Straight
   
 * [ ] Creating a Library for moving
 
-  * [ ] mForward(diatance,
-  * [ ] mTurnLeft, mTurnRight
-  * [ ] mTurnLeft45, mTurnRight45
-  * [ ] mTurnLeft30, mTUrnRigt
+  * [ ] mForward(distance, speed, circumferenace)__
+  * [ ] mTurnLeft, mTurnRight(distance, speed, circumferenace)__
+  * [ ] mTurnLeft45, mTurnRight45(distance, speed, circumferenace)__
+  * [ ] mTurnLeft30, mTUrnRigt(distance, speed, circumferenace)__
 
 
   
