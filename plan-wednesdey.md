@@ -22,7 +22,7 @@ Part II: Going Straight
 
   * [ ] How to measure the diameter of a wheel 
   * [ ] How to measure the circumference of a wheel with a string
-  * [ ] How to read the diameter od a whele from the lego tires
+  * [ ] How to read the diameter of a wheel from the lego tires
   
 * [ ] Math: C/d = pi
   
