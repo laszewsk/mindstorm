@@ -27,18 +27,39 @@ PartII: Going Straight
 * [ ] Math: C/d = pi
   
   * [ ] Experiment 1: We will measure the circumferenace and diameter and calculate C/d
-
   * [ ] Experiment 2: We will compare the different ratios for the different wheel sizes
-
   * [ ] Experiment 3: We will recalculate the distance by C/pi = d
-  
   * [ ] Review: We will be watching https://en.wikipedia.org/wiki/Circumference
   
 * [ ] Basic program
  
-  * Write a basic program useing the above while using the variables __distance__, __pi__, __circumferance__  
+  *  [ ] Organizing programs
   
+    * [ ] Naming: 
+    
+      * [ ] variable names lower case  
+      * [ ] program names: __pForward__
+      * [ ] test programs: __tForward__ (copy __pForward__)
+      * [ ] __IMPORTANT__: myBlocks: __mForward__ (only use __tForward__ if something is wrong with myblock, delete __tforward__ and start from __pForward__)
+      
+        * Reasoning: if you make a definition error in myBlocks they can not be reversed, and you have to start over. For big programs this is a problem. Afoid that you spend hours of recreating the big program.
+
+  * [ ] Write a basic program using the above while using the variables __distance__, __speed__, __circumferance__
+  * [ ] Write a __myBlock__ that has the following inputs inputs __distance__, __speed__, __circumferance__
+  
+    * We write such a program abbreviated as __mForward(distance, speed, circumferenace)__
  
+  * [ ] Test your robot with the new program
+  
+* [ ] Creating a Library for moving
+
+  * [ ] mForward(diatance,
+  * [ ] mTurnLeft, mTurnRight
+  * [ ] mTurnLeft45, mTurnRight45
+  * [ ] mTurnLeft30, mTUrnRigt
+
+
+  
   
         
         
