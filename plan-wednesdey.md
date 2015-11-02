@@ -72,33 +72,33 @@ Write a programsthat turns your robot on the spot.
 Line Following Program
 ------------------------
 
-Robot 
+Robot: 
 
- light
-+---+
-|   |
-+---+
-      +---------------+
-      |               |
-+---+ |               | +---+
-|   | |               | |   |
-|   | |               | |   |
-|   | |               | |   |
-|   | |               | |   |
-|   | |               | |   |
-|   | |               | |   |
-|   | |               | |   |
-+---+ |               | |   |
-      |               | +---+
-      +---------------+
-speed1                speed2
+   light
+  +---+
+  |   |
+  +---+
+        +---------------+
+        |               |
+  +---+ |               | +---+
+  |   | |               | |   |
+  |   | |               | |   |
+  |   | |               | |   |
+  |   | |               | |   |
+  |   | |               | |   |
+  |   | |               | |   |
+  |   | |               | |   |
+  +---+ |               | |   |
+        |               | +---+
+        +---------------+
+  speed1                speed2
 
 
-  * [ ] Education of line following. Simple algorithm
-  * [ ] Impact of speed 
-  * [ ] Table 
+* [ ] Education of line following. Simple algorithm
+* [ ] Impact of speed 
+* [ ] Table 
   
-No need to understand this, but the two lines marked with this IS IMPORTANT:
+No need to understand this, but the two lines marked with this __IS IMPORTANT__:
 
   black = 10
   white = 70
