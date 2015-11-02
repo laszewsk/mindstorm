@@ -98,15 +98,13 @@ Robot:
 * [ ] Impact of speed 
 * [ ] Table 
   
-No need to understand this, but the two lines marked with this __IS IMPORTANT__:
+Program to illustrate the behavious:
 
   black = 10
   white = 70
   f = 1.0
 
-  for i in range(black,white):
-    light = float(i)
-    
+  for light in range(black,white):
     speed1[light] = (white-light) * f  # THIS IS IMPORTANT
     speed2[light] = (light-black) * f  # THIS IS IMPORTANT
             
