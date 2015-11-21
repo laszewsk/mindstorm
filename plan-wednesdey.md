@@ -18,11 +18,11 @@ Part I: Variables and Files
 Part II: Going Straight 
 ------------------------
 
-* [ ] Math: How to get the distance from a wheel wher we know circumferance and diameter
+* [ ] Math: How to get the distance from a wheel where we know circumferance and diameter
 
   * [ ] How to measure the diameter of a wheel 
   * [ ] How to measure the circumference of a wheel with a string
-  * [ ] How to read the diameter od a whele from the lego tires
+  * [ ] How to read the diameter of a wheel from the lego tires
   
 * [ ] Math: C/d = pi
   
@@ -70,31 +70,44 @@ Write a programsthat turns your robot on the spot.
   * [ ] Test yor program while turning a full rotation with your dergee algorithm. Example: 45 degrees turn 8 times
 
 Line Following Program
+------------------------
 
-  * [ ] Edication of line following. Simple algorithm
-  * [ ] Impact of speed 
-  * [ ] Table 
-  * 
+Robot: 
+
+    light
+    +---+
+    |   |
+    +---+
+          +---------------+
+          |               |
+    +---+ |               | +---+
+    |   | |               | |   |
+    |   | |               | |   |
+    |   | |               | |   |
+    |   | |               | |   |
+    |   | |               | |   |
+    |   | |               | |   |
+    |   | |               | |   |
+    +---+ |               | |   |
+          |               | +---+
+          +---------------+
+    speed1                speed2
+
+
+* [ ] Education of line following. Simple algorithm
+* [ ] Impact of speed 
+* [ ] Table 
   
-No need to understand this, but the two lines
+Program to illustrate the behavious:
 
-black = 10
-white = 70
-f_rotate = 1.0
-s1=[]
-s2=[]
+    black = 10
+    white = 70
+    f = 1.0
 
-print "            light     speed1     speed2"
-for i in range(black,white):
-    light = float(i)
-    
-    speed1 = (white-light) * f_rotate  # THIS IS IMPORTANT
-    speed2 = (light-black) * f_rotate  # THIS IS IMPORTANT
-            
-    print "{:6d} {:10.2f} {:10.2f} {:10.2f} ".format(i, light, speed1, speed2)
-    s1.append(speed1)
-    s2.append(speed2)
-    
+    for light in range(black,white):
+      speed1[light] = (white-light) * f  # THIS IS IMPORTANT
+      speed2[light] = (light-black) * f  # THIS IS IMPORTANT
+
            light     speed1     speed2
     10      10.00      60.00       0.00 
     11      11.00      59.00       1.00 
@@ -115,7 +128,7 @@ for i in range(black,white):
     26      26.00      44.00      16.00 
     27      27.00      43.00      17.00 
     28      28.00      42.00      18.00 
-    29      29.00      41.00      19.00 
+    29      29.00      41.00      19.00
     30      30.00      40.00      20.00 
     31      31.00      39.00      21.00 
     32      32.00      38.00      22.00 
@@ -125,8 +138,10 @@ for i in range(black,white):
     36      36.00      34.00      26.00 
     37      37.00      33.00      27.00 
     38      38.00      32.00      28.00 
-    39      39.00      31.00      29.00 
+    39      39.00      31.00      29.00
+    
     40      40.00      30.00      30.00 
+    
     41      41.00      29.00      31.00 
     42      42.00      28.00      32.00 
     43      43.00      27.00      33.00 
@@ -158,10 +173,25 @@ for i in range(black,white):
     69      69.00       1.00      59.00 
     
     
-![Curve](https://github.com/laszewsk/mindstorm/tree/master/docs/source/images/curve.png)
+![Curve](https://raw.githubusercontent.com/laszewsk/mindstorm/master/docs/source/images/curve.png)
   
         
-        
-        
+Gaining understanding:
+
+* [ ] Draw on a  paper your robot (see drawing above), fold or cut it so the robot is left  
+* [ ] Draw on a sheet of paper a straight black line as wide as the light sensor
+* [ ] Use the robot to hit the black line at different angles and explain how the wheels shold turn to get straight
+* [ ] What value must f have so that the maximum speed is 20 (robot moves real slow in this case)
+* [ ] Observe what happens when you change f
+* [ ] How can you use the smooth algorithm to move forard fro 100cm on a balck line.
         
   
+Anticipated judges questions that everyone should be able to anser:
+
+* [ ] How does the lne folowing program work?
+* [ ] What is pi and how doe it relate to wheel measurments
+* [ ] Why are you using cm instead of inches? :
+
+  * The metric unit system is easy because everything is a multiple or a fraction of ten. There is a base unit for each type of measurement, such as meter (abbreviation m) for length, gramm (abbreviation g or gr) for weight or liter (abbreviation l or lt) for volume.
+  * Only three countries do not use the metric system: https://upload.wikimedia.org/wikipedia/commons/1/17/Metric_system.png, USA, Liberia, Myanmar. We can learn from billions of people ...
+
