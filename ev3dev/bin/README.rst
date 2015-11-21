@@ -11,9 +11,13 @@ forward. Often I find myself in the situation where I have to remove
 the bloototh device on the brick and the computer and start from
 scratch. I often spend more time trying to connect than to actual
 program. Therefore I have ordered the standard wifi dongle and hopw
-with that the situation will improve. I have opted not to purchase the
-Edimax version, but the regular netgear one, so i can also use it in
-the standrad mindstorm environment.
+with that the situation will improve. STarting with firmware version
+1.08 also Edimax is supported. I have both Edimax and the big Netgear
+N150 dongle. Thus you may just want to go with the Edimax wifi
+adapter.  One thing to remember is that you use WPA2 and make sure you
+do not use a standard that is not supported by your network. If your
+router supports, just set up a network that is supported by the car
+and use that. 
 
 Notation
 ----------------------------------------------------------------------
@@ -110,7 +114,7 @@ already available::
 Using emacs to edit files from your computer on the brick
 ----------------------------------------------------------------------
 
-It is also possible to use your local emacs to edit files on the
+It is also possible to use your local laptop emacs to edit files on the
 brick. The way to do that is simply to specify the properlocation::
 
   C-x C-f /gregor@lego:filename
