@@ -1,0 +1,169 @@
+#! /usr/bin/env python
+from __future__ import division
+from __future__ import print_function
+
+from pprint import pprint
+from sh import diskutil
+import os
+from pprint import pprint
+from BeautifulSoup import BeautifulSoup
+import urllib2
+import re
+import wget
+import zipfile
+
+
+# ######################################################################
+
+RELEASE = "2015-09-13"
+
+
+GIT= "https://github.com/ev3dev/ev3dev/releases/download"
+ZIP = "{1}/ev3-ev3dev-jessie-{0}/ev3-ev3dev-jessie-{0}.img.zip".format(RELEASE, GIT)
+ZIP_PATH = os.path.dirname(ZIP)
+NOTES = "https://github.com/ev3dev/ev3dev/tree/master/release-notes"
+
+# ######################################################################
+
+def get_latest_release_url(GIT, NOTES):
+
+    # FIND ALL RELEASES
+    
+    html_page = urllib2.urlopen(NOTES)
+    soup = BeautifulSoup(html_page)
+    links = []
+    for link in soup.findAll('a'):
+	url = link.get('href')
+	if url is not None and ".img" in url and "ev3-" in url:
+	    links.append(url.split(".img")[0])
+
+    # FIND THE NAMES OF THE RELEASES
+    
+    names = []
+    for link in links:
+	r = link.split("release-notes")[1][1:]
+	names.append(r)
+
+    # FIND THE DATES OF THE RELEASES
+    
+    dates = []
+    for link in links:
+	r = link.split("jessie")[1][1:]
+	dates.append(r)
+    dates = sorted(set(dates), reverse=True)
+
+    # FIND THE LATEST RELEASE
+    
+    latest = next((x for x in names if dates[0] in x))
+
+    # CREATE THE DOWNLOADLINK
+    
+    link = "{0}/{1}/{1}.img.zip".format(GIT,latest)
+
+    return link
+
+print ("Find latest release found:")
+url = get_latest_release_url(GIT, NOTES)
+filename = os.path.basename(url)
+print (url)
+if os.path.exists(filename):
+   print("file exists")
+else:
+   print ("download")
+   #wget.download(url)
+
+print ("Exctracting contents")
+img_name = filename.replace(".zip","")
+
+if os.path.exists(img_name):
+   print ("Image already extracted.")
+else:
+   print ("Extrecting image.")
+   zfile = zipfile.ZipFile(filename)
+   zfile.extractall()
+
+#
+# NOW PRINT FORMAT SUGGESTIONS
+#
+
+   
+result = diskutil(["info", "-all"])
+
+entries = result.split("**********")
+
+disks = {}
+count = 0
+for entry in entries:
+    disk = entry.strip().splitlines()
+    disks[count] = disk
+    count = count + 1
+
+d = {}
+for key, entry in disks.iteritems():
+    d[key] = {}
+    for line in entry:
+    	l  =  re.sub(' +',' ', line)
+	l  =  l.strip()
+	if ":" in l:
+		attribute, value = l.split(":", 1)
+		attribute = attribute.replace(" ", "_").lower()
+		d[key][attribute] = value.strip()
+    if len(d[key]) == 0:
+       del d[key]
+
+disks = d
+
+# pprint (disks)
+
+for key, disk in disks.iteritems():
+    if 'USB' in disk['protocol']:
+       print ("{protocol} {device_node} {part_of_whole} {total_size} {whole}".format(**disk))
+    if 'partition_type' in disk:
+       print ("{partition_type}".format(**disk))
+
+# FIND DEV
+
+dev_found = 0
+disk_found = 0
+for key, disk in disks.iteritems():
+    if 'USB' in disk['protocol'] and disk["whole"].lower() == "no":
+       dev_found = key
+    if 'USB' in disk['protocol'] and disk["whole"].lower() == "yes":
+       disk_found = key
+
+print (dev_found)
+
+def print_entry(entry):
+
+    attributes = ["device_/_media_name",
+	   "part_of_whole",
+	   "protocol",
+	   "total_size",
+	   "device_node",
+	   "device_identifier",
+	   "removable_media"]
+    for attribute in attributes:
+    	value = disks[entry][attribute]
+    	print ("{:<20}:{}".format(attribute, value))
+    print()
+
+print ("DEV FOUND")
+print ("------------")
+print_entry(dev_found)
+
+print ("DISK FOUND")
+print ("------------")
+print_entry(disk_found)
+
+
+
+dev = "/dev/{device_identifier}".format(**disks[dev_found])
+print ("Execute the following two lines")
+print ("===============================")
+print ()
+print ("diskutil unmountDisk {}".format(dev))
+
+rdisk = "r" + disks[disk_found]['device_identifier']
+
+print ("sudo dd if=./{0} of=/dev/{1} bs=4m"
+       .format(img_name, rdisk))

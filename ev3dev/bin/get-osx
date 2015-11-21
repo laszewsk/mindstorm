@@ -1,0 +1,80 @@
+#! /usr/bin/env python
+from __future__ import division
+from __future__ import print_function
+import os
+from pprint import pprint
+from BeautifulSoup import BeautifulSoup
+import urllib2
+import re
+import wget
+import zipfile
+
+
+# ######################################################################
+
+RELEASE = "2015-09-13"
+
+
+GIT= "https://github.com/ev3dev/ev3dev/releases/download"
+ZIP = "{1}/ev3-ev3dev-jessie-{0}/ev3-ev3dev-jessie-{0}.img.zip".format(RELEASE, GIT)
+ZIP_PATH = os.path.dirname(ZIP)
+NOTES = "https://github.com/ev3dev/ev3dev/tree/master/release-notes"
+
+# ######################################################################
+
+def get_latest_release_url(GIT, NOTES):
+
+    # FIND ALL RELEASES
+    
+    html_page = urllib2.urlopen(NOTES)
+    soup = BeautifulSoup(html_page)
+    links = []
+    for link in soup.findAll('a'):
+	url = link.get('href')
+	if url is not None and ".img" in url and "ev3-" in url:
+	    links.append(url.split(".img")[0])
+
+    # FIND THE NAMES OF THE RELEASES
+    
+    names = []
+    for link in links:
+	r = link.split("release-notes")[1][1:]
+	names.append(r)
+
+    # FIND THE DATES OF THE RELEASES
+    
+    dates = []
+    for link in links:
+	r = link.split("jessie")[1][1:]
+	dates.append(r)
+    dates = sorted(set(dates), reverse=True)
+
+    # FIND THE LATEST RELEASE
+    
+    latest = next((x for x in names if dates[0] in x))
+
+    # CREATE THE DOWNLOADLINK
+    
+    link = "{0}/{1}/{1}.img.zip".format(GIT,latest)
+
+    return link
+
+print ("Find latest release found:")
+url = get_latest_release_url(GIT, NOTES)
+filename = os.path.basename(url)
+print (url)
+if os.path.exists(filename):
+   print("file exists")
+else:
+   print ("download")
+   #wget.download(url)
+
+print ("Exctracting contents")
+img_name = filename.replace(".zip","")
+
+if os.path.exists(img_name):
+   print ("Image already extracted.")
+else:
+   print ("Extrecting image.")
+   zfile = zipfile.ZipFile(filename)
+   zfile.extractall()

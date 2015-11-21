@@ -1,0 +1,81 @@
+#! /usr/bin/env python
+from pprint import pprint
+from sh import diskutil
+import re
+
+result = diskutil(["info", "-all"])
+
+entries = result.split("**********")
+
+disks = {}
+count = 0
+for entry in entries:
+    disk = entry.strip().splitlines()
+    disks[count] = disk
+    count = count + 1
+
+d = {}
+for key, entry in disks.iteritems():
+    d[key] = {}
+    for line in entry:
+    	l  =  re.sub(' +',' ', line)
+	l  =  l.strip()
+	if ":" in l:
+		attribute, value = l.split(":", 1)
+		attribute = attribute.replace(" ", "_").lower()
+		d[key][attribute] = value.strip()
+    if len(d[key]) == 0:
+       del d[key]
+
+disks = d
+
+# pprint (disks)
+
+for key, disk in disks.iteritems():
+    if 'USB' in disk['protocol']:
+       print ("{protocol} {device_node} {part_of_whole} {total_size} {whole}".format(**disk))
+    if 'partition_type' in disk:
+       print ("{partition_type}".format(**disk))
+
+# FIND DEV
+
+dev_found = 0
+disk_found = 0
+for key, disk in disks.iteritems():
+    if 'USB' in disk['protocol'] and disk["whole"].lower() == "no":
+       dev_found = key
+    if 'USB' in disk['protocol'] and disk["whole"].lower() == "yes":
+       disk_found = key
+
+print dev_found
+
+def print_entry(entry):
+
+    attributes = ["device_/_media_name",
+	   "part_of_whole",
+	   "protocol",
+	   "total_size",
+	   "device_node",
+	   "device_identifier",
+	   "removable_media"]
+    for attribute in attributes:
+    	value = disks[entry][attribute]
+    	print ("{:<20}:{}".format(attribute, value))
+    print
+
+print ("DEV FOUND")
+print ("------------")
+print_entry(dev_found)
+
+print ("DISK FOUND")
+print ("------------")
+print_entry(disk_found)
+
+
+
+dev = "/dev/{device_identifier}/".format(**disks[dev_found])
+print ("Execute the following two lines")
+print ("===============================")
+print
+print ("unmountDisk {}".format(dev))
+print ("sudo dd if=./ev3-ev3dev-jessie-2015-09-13.img of=/dev/r{device_identifier} bs=4m".format(**disks[disk_found]))
