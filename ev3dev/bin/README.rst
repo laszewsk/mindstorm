@@ -20,20 +20,20 @@ both Edimax and the big Netgear N150 dongle. As botth now work, you
 may just want to go with the Edimax wifi adapter as it is cheaper.
 One thing to remember is that you use WPA2 and make sure you do not
 use a standard that is not supported by your network. If your router
-supports, just set up a network that is supported by the car and use
-that.
+supports multiple wifi stanards, just set up a network that is
+supported by the card and use that.
 
 Rechargable Batteries
 ----------------------------------------------------------------------
 
 I have had very cheap rechargable batteries only 900mA and they were
-simply recharging to fast. HOwever the biggest issue was that the
+simply discharging to fast. However the biggest issue was that the
 design of the robot needs to allow for the battery box to be
 accessible. I have the home kit and not the education kit and after a
 while I decided it was just more practical to get the rechargeble
 battery. The original recharger I got for $10 cheaper
 with free shipping. In retrospect, I should have just ordered the
-education set. Its unfortunate that you can not get an add on that
+education set. Its unfortunate that you can not get an add-on that
 compliments the one with the other. If you are already at it I
 recommend you get some other parts as ordering through the education
 store results in shipping costs.
