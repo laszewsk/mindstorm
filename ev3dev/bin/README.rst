@@ -1,4 +1,4 @@
-Gregor's ev3dev Startup for OSX
+Gregor's ev3dev iPython 
 ======================================================================
 
 Send improvements to: laszewski@gmail.com
@@ -10,14 +10,48 @@ For some reason conecting via bluetooth is not as straight
 forward. Often I find myself in the situation where I have to remove
 the bloototh device on the brick and the computer and start from
 scratch. I often spend more time trying to connect than to actual
-program. Therefore I have ordered the standard wifi dongle and hopw
-with that the situation will improve. STarting with firmware version
-1.08 also Edimax is supported. I have both Edimax and the big Netgear
-N150 dongle. Thus you may just want to go with the Edimax wifi
-adapter.  One thing to remember is that you use WPA2 and make sure you
-do not use a standard that is not supported by your network. If your
-router supports, just set up a network that is supported by the car
-and use that. 
+program.
+
+Connecting with wifi
+----------------------
+
+Starting with firmware version 1.08 also Edimax is supported. I have
+both Edimax and the big Netgear N150 dongle. As botth now work, you
+may just want to go with the Edimax wifi adapter as it is cheaper.
+One thing to remember is that you use WPA2 and make sure you do not
+use a standard that is not supported by your network. If your router
+supports, just set up a network that is supported by the car and use
+that.
+
+Rechargable Batteries
+----------------------------------------------------------------------
+
+I have had very cheap rechargable batteries only 900mA and they were
+simply recharging to fast. HOwever the biggest issue was that the
+design of the robot needs to allow for the battery box to be
+accessible. I have the home kit and not the education kit and after a
+while I decided it was just more practical to get the rechargeble
+battery. The original recharger I got for $10 cheaper
+with free shipping. In retrospect, I should have just ordered the
+education set. Its unfortunate that you can not get an add on that
+compliments the one with the other. If you are already at it I
+recommend you get some other parts as ordering through the education
+store results in shipping costs.
+
+Home made Ball bearings
+---------------------------------------------------------------------
+
+I have not yet completed that project but in Hardware stores you can
+get ball baerings for furniture projects. The one at Harbor frights
+are pretty cheap. YOu can enlargen the wholes and put some conectors
+on so you can use such DIY ball bearings. I will make a phot once I
+have some time.
+
+* http://www.harborfreight.com/1-roller-ball-bearing.html ($0.89)
+* http://www.harborfreight.com/5-8-roller-ball-bearing.html ($1.79)
+
+I have only the 5/8, but should have also bought the 1in version as
+that is closer to the actual size of the lego metal balls in
 
 Notation
 ----------------------------------------------------------------------
