@@ -10,18 +10,20 @@ For some reason conecting via bluetooth is not as straight
 forward. Often I find myself in the situation where I have to remove
 the bloototh device on the brick and the computer and start from
 scratch. I often spend more time trying to connect than to actual
-program.
+program. I verified this seems to be an issue with OSX. Others that 
+have Windows seem not to have the issue. This even happens on the 1.08H 
+firmware update.
 
 Connecting with wifi
 ----------------------
 
-Starting with firmware version 1.08 also Edimax is supported. I have
+Starting with firmware version 1.08H also Edimax is supported. I have
 both Edimax and the big Netgear N150 dongle. As botth now work, you
 may just want to go with the Edimax wifi adapter as it is cheaper.
 One thing to remember is that you use WPA2 and make sure you do not
-use a standard that is not supported by your network. If your router
-supports multiple wifi stanards, just set up a network that is
-supported by the card and use that.
+use a wifi standard that is not supported by your modem and the network card. 
+If your router supports multiple wifi stanards, just set up a network that is
+supported by the card and use that. I use 802.11n.
 
 Rechargable Batteries
 ----------------------------------------------------------------------
@@ -31,8 +33,8 @@ simply discharging to fast. However the biggest issue was that the
 design of the robot needs to allow for the battery box to be
 accessible. I have the home kit and not the education kit and after a
 while I decided it was just more practical to get the rechargeble
-battery. The original recharger I got for $10 cheaper
-with free shipping. In retrospect, I should have just ordered the
+battery. The original recharger I got for $10 cheaper with free 
+shipping. In retrospect, I should have just ordered the
 education set. Its unfortunate that you can not get an add-on that
 compliments the one with the other. If you are already at it I
 recommend you get some other parts as ordering through the education
@@ -41,23 +43,23 @@ store results in shipping costs.
 Home made Ball bearings
 ---------------------------------------------------------------------
 
-I have not yet completed that project but in Hardware stores you can
-get ball baerings for furniture projects. The one at Harbor frights
-are pretty cheap. YOu can enlargen the wholes and put some conectors
+I have not yet completed that project but in hardware stores you can
+get ball baerings for furniture projects. The one at Harbor freights
+are pretty cheap. You can enlarge the mount wholes and put some conectors
 on so you can use such DIY ball bearings. I will make a phot once I
 have some time.
 
 * http://www.harborfreight.com/1-roller-ball-bearing.html ($0.89)
 * http://www.harborfreight.com/5-8-roller-ball-bearing.html ($1.79)
 
-I have only the 5/8, but should have also bought the 1in version as
-that is closer to the actual size of the lego metal balls in
+I have only the 5/8 in bearings, but should have also bought the 1 in 
+version as that is closer to the actual size of the lego metal balls.
 
 Notation
 ----------------------------------------------------------------------
 
-lines starting with `brick>` are executed on the brick terminal. Lines
-starting with `compu>` are executed on your computer.
+* Lines starting with `brick>` are executed on the brick terminal. 
+* Lines starting with `compu>` are executed on your computer.
 
 SSH keys
 ----------------------------------------------------------------------
@@ -81,7 +83,7 @@ logged in you can change the password with
 
      brick> passwd
 
-Lets create a normal user, replace gregor with the username you wnat::
+Lets create a normal user, replace gregor with the username you want::
 
      brick> adduser gregor	
      brick> usermod -a -G sudo,ev3dev,plugdev,audio,video,input,bluetooth,i2c gregor
@@ -89,9 +91,9 @@ Lets create a normal user, replace gregor with the username you wnat::
 Now let us place the public key on the brick, note that we execute
 thes commands on our main computer. (In future I hope I have time for
 all of the above steps to create a single script that you can execute
-on your computer, I did not yet have time to do so.)
+on your computer.)
 
-To setup a nice abbreviation for you ssh logins. Edit the file on your
+To setup a nice abbreviation for you ssh logins, edit the file on your
 local computer `~.ssh/config`.
 
 In that file add the following::
@@ -132,7 +134,7 @@ To make sure your sustem is up to date, execute the following::
 As we want to install python for ev3dev, ipython notebook we execute::
 
    brick> apt-get install git
-   brick> apt-get install ipython-noxtebook
+   brick> apt-get install ipython-notebook
    brick> apt-get install python-setuptools python-pil
    brick> easy_install -U python-ev3dev
    brick> pip install rpyc
